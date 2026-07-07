@@ -6,8 +6,8 @@ This repository contains my solutions to DSA problems solved while preparing for
 
 ## 👩‍💻 Languages
 
-- Java (Primary)
-- Python (Occasionally)
+- Java 
+- Python 
 
 ## 🌐 Platforms
 
@@ -15,7 +15,9 @@ This repository contains my solutions to DSA problems solved while preparing for
 - Striver A2Z DSA Sheet
 - NeetCode
 - Coding Ninjas
-
+- Rising Brain
+- Hacker Rank
+  
 ## 📂 Repository Structure
 
 ```
