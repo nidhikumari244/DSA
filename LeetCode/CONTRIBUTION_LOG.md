@@ -1,1 +1,2 @@
 - 2026-08-23: Subtree of Another Tree (ref bdcc9b4)
+- 2026-08-24: Stone Game VIII (ref 8be9890)
