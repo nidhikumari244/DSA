@@ -1,2 +1,4 @@
 - 2026-08-23: Subtree of Another Tree (ref bdcc9b4)
 - 2026-08-24: Stone Game VIII (ref 8be9890)
+- 2026-08-25: Reverse Integer (ref ed492de)
+- 2026-08-25: Smallest Missing Multiple of K (ref 68a02c3)
