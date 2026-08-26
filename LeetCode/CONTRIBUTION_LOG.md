@@ -2,3 +2,5 @@
 - 2026-08-24: Stone Game VIII (ref 8be9890)
 - 2026-08-25: Reverse Integer (ref ed492de)
 - 2026-08-25: Smallest Missing Multiple of K (ref 68a02c3)
+- 2026-08-26: Merge Two Binary Trees (ref 2618161)
+- 2026-08-26: Shortest and Lexicographically Smallest Beautiful String (ref ae42858)
