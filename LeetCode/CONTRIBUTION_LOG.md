@@ -7,3 +7,4 @@
 - 2026-08-27: Lexicographically Smallest Permutation Greater Than Target (ref df1b223)
 - 2026-08-28: Lexicographically Smallest Palindromic Permutation Greater Than Target (ref edb4e9e)
 - 2026-08-29: First Unique Character in a String (ref c86b751)
+- 2026-08-30: Removing Minimum and Maximum From Array (ref ec64d4d)
