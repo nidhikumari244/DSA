@@ -10,3 +10,4 @@
 - 2026-08-30: Removing Minimum and Maximum From Array (ref ec64d4d)
 - 2026-08-31: Palindrome Number (ref 78899bf)
 - 2026-09-01: Remove Element (ref 0c24efe)
+- 2026-09-02: Construct Uniform Parity Array I (ref 6291833)
