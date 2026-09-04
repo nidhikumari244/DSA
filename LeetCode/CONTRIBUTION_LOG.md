@@ -11,3 +11,8 @@
 - 2026-08-31: Palindrome Number (ref 78899bf)
 - 2026-09-01: Remove Element (ref 0c24efe)
 - 2026-09-02: Construct Uniform Parity Array I (ref 6291833)
+- 2026-09-04: Smallest Stable Index I (ref 26aea44)
+- 2026-09-04: Construct Uniform Parity Array II (ref b5b33be)
+- 2026-09-04: Count Integers Appearing in a Single Block (ref 4744f5c)
+- 2026-09-04: Sum of Decoded Numbers (ref 72e85ba)
+- 2026-09-04: Minimum Operations to Form Subset Sum I (ref a9ca654)
