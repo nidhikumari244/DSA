@@ -16,3 +16,4 @@
 - 2026-09-04: Count Integers Appearing in a Single Block (ref 4744f5c)
 - 2026-09-04: Sum of Decoded Numbers (ref 72e85ba)
 - 2026-09-04: Minimum Operations to Form Subset Sum I (ref a9ca654)
+- 2026-09-05: Smallest Stable Index II (ref ea91640)
