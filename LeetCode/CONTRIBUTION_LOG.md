@@ -17,3 +17,4 @@
 - 2026-09-04: Sum of Decoded Numbers (ref 72e85ba)
 - 2026-09-04: Minimum Operations to Form Subset Sum I (ref a9ca654)
 - 2026-09-05: Smallest Stable Index II (ref ea91640)
+- 2026-09-06: Distinct Subsequences (ref 9eb0e87)
