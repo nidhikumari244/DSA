@@ -5,14 +5,26 @@ on:
   schedule:
     - cron: '0 0 * * *'
 
+concurrency:
+  group: leetcode-sync
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
 jobs:
   sync:
     runs-on: ubuntu-latest
-
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Record HEAD before sync
+        id: before
+        run: echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
       - name: Sync LeetCode Submissions
         uses: joshcai/leetcode-sync@v1.7
         with:
@@ -23,3 +35,32 @@ jobs:
           destination-folder: 'LeetCode'
           verbose: true
           commit-header: '[LeetCode Sync]'
+
+      - name: Guarantee a real contribution for genuine sync activity
+        run: |
+          set -euo pipefail
+          git config user.name "Nidhi Kumari"
+          git config user.email "nidhigupta2462@gmail.com"
+
+          BEFORE="${{ steps.before.outputs.sha }}"
+          AFTER=$(git rev-parse HEAD)
+
+          if [ "$BEFORE" = "$AFTER" ]; then
+            echo "No new commits from sync step today. Nothing to do."
+            exit 0
+          fi
+
+          for sha in $(git rev-list --reverse "$BEFORE..$AFTER"); do
+            CHANGED=$(git show --stat --format="" "$sha" | wc -l)
+            if [ "$CHANGED" -eq 0 ]; then
+              MSG=$(git log -1 --format=%s "$sha")
+              DATE=$(git log -1 --format=%ad --date=iso-strict "$sha")
+              mkdir -p LeetCode
+              echo "- $DATE — $MSG (ref: ${sha:0:7})" >> LeetCode/CONTRIBUTION_LOG.md
+              git add LeetCode/CONTRIBUTION_LOG.md
+              GIT_AUTHOR_DATE="$DATE" GIT_COMMITTER_DATE="$DATE" \
+              git commit -m "Log genuine sync activity: $MSG"
+            fi
+          done
+
+          git push origin HEAD:main
