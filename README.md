@@ -68,3 +68,23 @@ Each solution may include:
 This repository is primarily for my personal learning journey. Suggestions and improvements are always welcome!
 
 ⭐ If you find this repository helpful, consider giving it a star!
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Hash Table
+|  |
+| ------- |
+| [1520-maximum-number-of-non-overlapping-substrings](https://github.com/nidhikumari244/DSA/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
+## String
+|  |
+| ------- |
+| [1520-maximum-number-of-non-overlapping-substrings](https://github.com/nidhikumari244/DSA/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
+## Greedy
+|  |
+| ------- |
+| [1520-maximum-number-of-non-overlapping-substrings](https://github.com/nidhikumari244/DSA/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
+## Sorting
+|  |
+| ------- |
+| [1520-maximum-number-of-non-overlapping-substrings](https://github.com/nidhikumari244/DSA/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
+<!---LeetCode Topics End-->
