@@ -78,6 +78,7 @@ This repository is primarily for my personal learning journey. Suggestions and i
 ## String
 |  |
 | ------- |
+| [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/nidhikumari244/DSA/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/nidhikumari244/DSA/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 ## Greedy
 |  |
@@ -87,4 +88,12 @@ This repository is primarily for my personal learning journey. Suggestions and i
 |  |
 | ------- |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/nidhikumari244/DSA/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
+## Stack
+|  |
+| ------- |
+| [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/nidhikumari244/DSA/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
+## Bracket Sequences
+|  |
+| ------- |
+| [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/nidhikumari244/DSA/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 <!---LeetCode Topics End-->
