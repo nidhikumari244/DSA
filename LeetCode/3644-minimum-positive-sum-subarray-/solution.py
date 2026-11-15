@@ -7,7 +7,6 @@ class Solution(object):
         :rtype: int
         """
         n = len(nums)
-        # prefix[i] = sum of nums[0..i-1], so sum(nums[i:j]) = prefix[j] - prefix[i]
         prefix = [0] * (n + 1)
         for i in range(n):
             prefix[i + 1] = prefix[i] + nums[i]
